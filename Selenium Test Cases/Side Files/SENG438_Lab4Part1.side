@@ -1,0 +1,389 @@
+{
+  "id": "fd6369f4-8995-4598-bcbb-d6f8ca0e0a87",
+  "version": "2.0",
+  "name": "SENG438_Lab4",
+  "url": "https://www.sportchek.ca/",
+  "tests": [{
+    "id": "f97698a0-9fff-4d96-b30d-92dbf05d1a19",
+    "name": "ViewProductDescriptionValidTest1",
+    "commands": [{
+      "id": "3b7d6c86-6fbc-4fe3-b688-f662932990b7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bf81206-251c-4537-af11-9475e600282c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x943",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eacf360d-f8b9-4c29-89f2-70b3bfb10138",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.enterprise-header__section:nth-child(3) a:nth-child(1) > font",
+      "targets": [
+        ["css=.enterprise-header__section:nth-child(3) a:nth-child(1) > font", "css:finder"],
+        ["xpath=//div[3]/div/div/a/font", "xpath:position"],
+        ["xpath=//font[contains(.,'Sign Up For Our Mailing List To Get 10% Off!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c18a29e-9a87-46d9-9a0f-148b9739e777",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,638)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0808d46-9c3b-4617-bf3d-5814efdf4277",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=The North Face Kids' Salty Dog Beanie",
+      "targets": [
+        ["linkText=The North Face Kids' Salty Dog Beanie", "linkText"],
+        ["css=.owl-item:nth-child(2) .product-title-text", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div[3]/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/categories/kids/accessories/kids-winter-accessories/product/the-north-face-kids-salty-dog-beanie-332897275.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d89462-435f-42ef-b844-2e234a6cc310",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,429)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dff42e79-a204-4498-9fc3-9eeee77f2d55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-detail-description-link:nth-child(2)",
+      "targets": [
+        ["css=.product-detail-description-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'View Description')]", "xpath:link"],
+        ["xpath=//div[@id='mediaViewer']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#description')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77597649-9625-4422-b777-543e7e861fc5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1168)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc5fa39b-8299-4a0c-aced-3ea1c1758ae5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,790.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75c8063b-9199-4ddb-a978-a017276d8bfe",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-description-blurb__text > p",
+      "targets": [
+        ["css=.product-description-blurb__text > p", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[4]/section/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'This football is built to fly off your foot. It has a durable machine stitched body for a soft touch and features a butyl bladder. Machine stitched for soft touch and durability Butyl bladder for best air retention Requires inflation 100% TPU injection-moulded')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "83d79edc-8f9e-4e3a-9376-cb7b09ba1a69",
+    "name": "PicUploadValidTest1",
+    "commands": [{
+      "id": "fcee861c-7aa4-4a17-8fc9-7d0fd0562d0b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a109f905-1b13-4657-8ca2-482b5a79d4ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x943",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cd1ed15-2c18-42b0-a8b3-b289fa57b515",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2635)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fd60d97-001e-4707-9a97-5033241c2231",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3135)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10eedda7-e51d-4434-a3fc-17993da5ac0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1717v0r-1",
+      "targets": [
+        ["css=.sc-1717v0r-1", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'UPLOAD YOUR PIC!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "165fe7a8-5e4e-481a-b6ca-b12171f7ffec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g8qrok-1",
+      "targets": [
+        ["css=.g8qrok-1", "css:finder"],
+        ["xpath=//div[@id='crl8-homepage-carousel-sourcePanel-local']/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a413c634-647a-4f9a-a65d-51fb9d6e51c6",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.g8qrok-2 > .g8qrok-3",
+      "targets": [
+        ["css=.g8qrok-2 > .g8qrok-3", "css:finder"],
+        ["xpath=//div[@id='crl8-homepage-carousel-sourcePanel-local']/div/div[2]/div/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a2179ed-b82f-4430-932d-1090abd4f2fa",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.g8qrok-2",
+      "targets": [
+        ["css=.g8qrok-2", "css:finder"],
+        ["xpath=(//button[@type='button'])[28]", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel-sourcePanel-local']/div/div[2]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d68dee-0e5b-4a6f-bf21-c0221e5f19d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g8qrok-2",
+      "targets": [
+        ["css=.g8qrok-2", "css:finder"],
+        ["xpath=(//button[@type='button'])[28]", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel-sourcePanel-local']/div/div[2]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee217779-6b84-43f5-9733-dcd880604ee4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1s7g1qu-1",
+      "targets": [
+        ["css=.sc-1s7g1qu-1", "css:finder"],
+        ["xpath=(//button[@type='button'])[32]", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel-uploader']/div/div/div/div[2]/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "681fff56-0255-4435-902a-2f803ea5c0e5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eccd9988-a044-4319-9f64-e8b78e4d2cac",
+      "comment": "",
+      "command": "type",
+      "target": "id=crl8-homepage-carousel-userForm-displayName",
+      "targets": [
+        ["id=crl8-homepage-carousel-userForm-displayName", "id"],
+        ["name=displayName", "name"],
+        ["css=#crl8-homepage-carousel-userForm-displayName", "css:finder"],
+        ["xpath=//input[@id='crl8-homepage-carousel-userForm-displayName']", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel-uploader']/div/div/div/div[2]/div/div[2]/div/form/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": "Huda Abbas"
+    }, {
+      "id": "f74b9901-9a49-444f-b6b0-82d4e1714d9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=crl8-homepage-carousel-userForm-emailAddress",
+      "targets": [
+        ["id=crl8-homepage-carousel-userForm-emailAddress", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#crl8-homepage-carousel-userForm-emailAddress", "css:finder"],
+        ["xpath=//input[@id='crl8-homepage-carousel-userForm-emailAddress']", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel-uploader']/div/div/div/div[2]/div/div[2]/div/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6646ad7-ffa6-4a21-90bd-072dc0bf77f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=crl8-homepage-carousel-userForm-emailAddress",
+      "targets": [
+        ["id=crl8-homepage-carousel-userForm-emailAddress", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#crl8-homepage-carousel-userForm-emailAddress", "css:finder"],
+        ["xpath=//input[@id='crl8-homepage-carousel-userForm-emailAddress']", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel-uploader']/div/div/div/div[2]/div/div[2]/div/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1•••••••••••••••r@gmail.com"
+    }, {
+      "id": "9880ef02-2786-450e-97a7-f3fa44622a16",
+      "comment": "",
+      "command": "click",
+      "target": "id=crl8-homepage-carousel-userForm-termsAndConditions",
+      "targets": [
+        ["id=crl8-homepage-carousel-userForm-termsAndConditions", "id"],
+        ["name=termsAndConditions", "name"],
+        ["css=#crl8-homepage-carousel-userForm-termsAndConditions", "css:finder"],
+        ["xpath=//input[@id='crl8-homepage-carousel-userForm-termsAndConditions']", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel-uploader']/div/div/div/div[2]/div/div[2]/div/form/fieldset[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d2e708-6d0d-414a-a659-d5ed29c1cefa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1s7g1qu-2",
+      "targets": [
+        ["css=.sc-1s7g1qu-2", "css:finder"],
+        ["xpath=(//button[@type='button'])[28]", "xpath:attributes"],
+        ["xpath=//div[@id='crl8-homepage-carousel-uploader']/div/div/div/div[2]/div[2]/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff123aac-6993-4c2c-ac48-d82adb21b71b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.i37uxa-1",
+      "targets": [
+        ["css=.i37uxa-1", "css:finder"],
+        ["xpath=//div[@id='crl8-homepage-carousel-uploader']/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div[8]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "SUCCESS!"
+    }]
+  }, {
+    "id": "9a77bfde-a4d7-4c7e-bf2d-8c56a5aa69ab",
+    "name": "ValidProductDescriptionValidTest2",
+    "commands": [{
+      "id": "7cc279a5-bc0a-4078-8da3-b52ed0a946b4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c05fe71-de2f-48f0-994a-766c6bffe6b3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x943",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b451c617-bb0e-4d82-8f96-d5b873deae8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__item:nth-child(4) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(4) .main-menu__text", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28309c31-a0eb-4de6-9684-59c06d369915",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hoodies & Sweatshirts",
+      "targets": [
+        ["linkText=Hoodies & Sweatshirts", "linkText"],
+        ["css=.page-nav__section:nth-child(3) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Hoodies & Sweatshirts')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/men/activewear/hoodies-sweatshirts.html')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hoodies & Sweatshirts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1190b005-349a-4946-9e35-6d52aca943e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__list-item:nth-child(1) .product-grid-image",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(1) .product-grid-image", "css:finder"],
+        ["xpath=//img[@alt=\"Under Armour Men's Rival Fleece Sweatshirt - Pitch Grey\"]", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div[4]/div[3]/div/ul/li/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf98b881-8074-4a10-af3a-5a44f30329e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-detail-description-link:nth-child(2)",
+      "targets": [
+        ["css=.product-detail-description-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'View Description')]", "xpath:link"],
+        ["xpath=//div[@id='mediaViewer']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#description')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b5cf32-bdc6-484c-8f7f-fba3a604d41f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,198)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ab80dc9-4d6f-47db-be32-691b9de4f006",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product-detail__header-title-description > .module-header__wrap",
+      "targets": [
+        ["css=.product-detail__header-title-description > .module-header__wrap", "css:finder"],
+        ["xpath=//span[@name='showdescription']", "xpath:attributes"],
+        ["xpath=//div[@id='description']/div/h2/span", "xpath:idRelative"],
+        ["xpath=//div/h2/span", "xpath:position"]
+      ],
+      "value": "DESCRIPTION"
+    }]
+  }],
+  "suites": [{
+    "id": "6cac1c84-1ae5-4226-8c26-aa215cbb275f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}
