@@ -1,0 +1,1727 @@
+{
+  "id": "c0a1355b-3541-4cff-b6b5-17b786b3dc80",
+  "version": "2.0",
+  "name": "Hmmm",
+  "url": "https://sportchek.ca/",
+  "tests": [{
+    "id": "59460fae-68ef-4fe0-bc55-7e9ed59f78a1",
+    "name": "feedback_form_validData",
+    "commands": [{
+      "id": "f60a8f29-674b-4117-9263-ab470ecbc930",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d37cf93a-62fd-40e7-9155-b7a99c7e25e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b109a69-499c-4cc6-8b6f-6a59763ebe31",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Footwear",
+      "targets": [
+        ["linkText=Footwear", "linkText"],
+        ["css=.page-nav__item:nth-child(6) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/shoes')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Footwear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9055c2ba-dbc2-45c6-a0cb-49aa2251cce2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav__section:nth-child(2) .page-nav__item:nth-child(1) > .page-nav__link",
+      "targets": [
+        ["css=.page-nav__section:nth-child(2) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Running Shoes')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/shoes/mens-athletic-shoes-cleats/running-shoes.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b92a84bf-65f1-4db2-9cef-4dd291a7f3bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__section:nth-child(2) .page-nav__item:nth-child(1) > .page-nav__link",
+      "targets": [
+        ["css=.page-nav__section:nth-child(2) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Running Shoes')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/shoes/mens-athletic-shoes-cleats/running-shoes.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00b9e4ca-e1ec-4bf0-8aa6-c9f5dc8e9f4b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,282.6666564941406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af5dd9ea-c729-410d-bbe9-d7d7968f65f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__list-item:nth-child(2) .product-grid-image",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(2) .product-grid-image", "css:finder"],
+        ["xpath=//img[@alt=\"Under Armour Men's Bandit TR 2 Trail Running Shoes - Black/Pitch Gray\"]", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div[5]/div[3]/div/ul/li[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "348092f0-d4e9-47fc-8eef-ccc7bad3f72e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,834)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9763574b-f778-48e0-a482-46c6bcee3892",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,926.6666870117188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68a9c858-3bd5-4c38-970b-07cbc76fe906",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1058.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e006c90-91d8-4f72-95ab-f95197d3754c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1418.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2aa9e041-7582-41ae-925b-4f7dffadad2a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2889.333251953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e738770b-ef56-4bdc-a8bb-4a87440c8d6a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2998.666748046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b56d2982-1b5b-4338-b83d-c6734c0e16b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bv-write-review",
+      "targets": [
+        ["css=.bv-write-review", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='BVRRContainer']/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7d6dc5c-2712-420e-a8b1-748f19066eb9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,998)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67b5438a-ae7e-4db0-a185-2cf9f9cd3e96",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bv-radio-rating-5 > span:nth-child(1)",
+      "targets": [
+        ["css=#bv-radio-rating-5 > span:nth-child(1)", "css:finder"],
+        ["xpath=//span[@id='bv-radio-rating-5']/span", "xpath:idRelative"],
+        ["xpath=//span[5]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd22cca3-69fb-4548-bcc8-a783a6eaf828",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-text-field-title",
+      "targets": [
+        ["id=bv-text-field-title", "id"],
+        ["name=title", "name"],
+        ["css=#bv-text-field-title", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-title']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "135cbc30-e628-4a61-95c9-048ca9a641b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-text-field-title",
+      "targets": [
+        ["id=bv-text-field-title", "id"],
+        ["name=title", "name"],
+        ["css=#bv-text-field-title", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-title']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Great features"
+    }, {
+      "id": "e016b022-255e-4abc-a4bf-25791a046a1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e5246d0-117e-47d7-9896-e5913b689d7a",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "great for hiking in the mud"
+    }, {
+      "id": "d8fd8b64-d6b7-4f78-9b41-1eef0c87a14a",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-radio-isrecommended-true-label",
+      "targets": [
+        ["id=bv-radio-isrecommended-true-label", "id"],
+        ["css=#bv-radio-isrecommended-true-label", "css:finder"],
+        ["xpath=//label[@id='bv-radio-isrecommended-true-label']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[4]/span[3]/span/span/ul/li/label", "xpath:idRelative"],
+        ["xpath=//li/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Yes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9def6c1a-85e6-4c3a-ad44-4ea41a74cce0",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-text-field-usernickname",
+      "targets": [
+        ["id=bv-text-field-usernickname", "id"],
+        ["name=usernickname", "name"],
+        ["css=#bv-text-field-usernickname", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-usernickname']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07e8f0a1-c156-407e-8239-da95e46c3b2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-text-field-usernickname",
+      "targets": [
+        ["id=bv-text-field-usernickname", "id"],
+        ["name=usernickname", "name"],
+        ["css=#bv-text-field-usernickname", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-usernickname']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "behrouz"
+    }, {
+      "id": "44b3ad75-1fb2-468e-9cd0-5d758ebf765c",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-email-field-hostedauthentication_authenticationemail",
+      "targets": [
+        ["id=bv-email-field-hostedauthentication_authenticationemail", "id"],
+        ["name=hostedauthentication_authenticationemail", "name"],
+        ["css=#bv-email-field-hostedauthentication_authenticationemail", "css:finder"],
+        ["xpath=//input[@id='bv-email-field-hostedauthentication_authenticationemail']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[7]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d892847-6feb-498a-a44e-1a360de2ff9c",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-email-field-hostedauthentication_authenticationemail",
+      "targets": [
+        ["id=bv-email-field-hostedauthentication_authenticationemail", "id"],
+        ["name=hostedauthentication_authenticationemail", "name"],
+        ["css=#bv-email-field-hostedauthentication_authenticationemail", "css:finder"],
+        ["xpath=//input[@id='bv-email-field-hostedauthentication_authenticationemail']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[7]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": "harjeet.gill@gmail.com"
+    }, {
+      "id": "03c1b7f5-9ea3-4934-90bd-9035621324f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1", "id"],
+        ["name=contextdatavalue_WhereDidYouPurchase_1", "name"],
+        ["css=#bv-select-field-contextdatavalue_WhereDidYouPurchase_1", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_WhereDidYouPurchase_1']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[8]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c230d6cf-ff87-4cdc-aa9c-a24eaf360c93",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1",
+      "targets": [],
+      "value": "label=Online"
+    }, {
+      "id": "1479c06e-e6e1-4fdb-aae2-41973ac441d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_StaffIndicator",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_StaffIndicator", "id"],
+        ["name=contextdatavalue_StaffIndicator", "name"],
+        ["css=#bv-select-field-contextdatavalue_StaffIndicator", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_StaffIndicator']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[9]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//fieldset[9]/div[2]/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "616302ab-1c9e-4b5b-a05d-2360c363aef3",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_StaffIndicator",
+      "targets": [],
+      "value": "label=No"
+    }, {
+      "id": "21134cdc-adfe-44ef-8392-e055eb4f5bcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree", "id"],
+        ["name=contextdatavalue_DidYouReceiveThisProductForFree", "name"],
+        ["css=#bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[10]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//fieldset[10]/div[2]/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad1fa09-1b57-4ea5-8088-d6a7452941ab",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree",
+      "targets": [],
+      "value": "label=No"
+    }, {
+      "id": "68208a31-dff3-480d-8298-d76f60767f57",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-radio-netpromoterscore-10-label",
+      "targets": [
+        ["id=bv-radio-netpromoterscore-10-label", "id"],
+        ["css=#bv-radio-netpromoterscore-10-label", "css:finder"],
+        ["xpath=//label[@id='bv-radio-netpromoterscore-10-label']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[11]/div[3]/span/span/ul/li[11]/label", "xpath:idRelative"],
+        ["xpath=//li[11]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'10')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37683c68-df56-4fb2-a2b8-495cba26c02a",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-checkbox-reviews-termsAndConditions",
+      "targets": [
+        ["id=bv-checkbox-reviews-termsAndConditions", "id"],
+        ["name=agreements_reviews_termsAndConditions", "name"],
+        ["css=#bv-checkbox-reviews-termsAndConditions", "css:finder"],
+        ["xpath=//input[@id='bv-checkbox-reviews-termsAndConditions']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div[2]/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "008175aa-8fd4-495b-a42e-a11ffbf9229c",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-checkbox-reviews-termsAndConditions",
+      "targets": [
+        ["id=bv-checkbox-reviews-termsAndConditions", "id"],
+        ["name=agreements_reviews_termsAndConditions", "name"],
+        ["css=#bv-checkbox-reviews-termsAndConditions", "css:finder"],
+        ["xpath=//input[@id='bv-checkbox-reviews-termsAndConditions']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div[2]/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "593ae6f6-3666-44f8-b5bd-e871d1806769",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-checkbox-reviews-termsAndConditions",
+      "targets": [
+        ["id=bv-checkbox-reviews-termsAndConditions", "id"],
+        ["name=agreements_reviews_termsAndConditions", "name"],
+        ["css=#bv-checkbox-reviews-termsAndConditions", "css:finder"],
+        ["xpath=//input[@id='bv-checkbox-reviews-termsAndConditions']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div[2]/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8a4f3e4-f60c-428a-b56b-1378e03ef742",
+      "comment": "",
+      "command": "click",
+      "target": "name=bv-submit-button",
+      "targets": [
+        ["name=bv-submit-button", "name"],
+        ["css=.bv-form-actions-submit", "css:finder"],
+        ["xpath=//button[@name='bv-submit-button']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7394adc-50d3-4a45-ab2a-6b8220ace00d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e47cea02-0fa2-4af6-acf4-8bc681ad56f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf19802-a3fb-4975-83f5-a6488cf46dad",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98722943-12bc-4596-b6b8-ce9da9517954",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d40a4231-ef13-4cd7-9657-9b0ba49b37f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Great for hiking in the mud and very comfortable, have tested in multiple conditions and great for wear and tear!"
+    }, {
+      "id": "a0c3b686-7165-4d5b-9935-243405ade152",
+      "comment": "",
+      "command": "click",
+      "target": "name=bv-submit-button",
+      "targets": [
+        ["name=bv-submit-button", "name"],
+        ["css=.bv-form-actions-submit", "css:finder"],
+        ["xpath=//button[@name='bv-submit-button']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333619319-c98']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2a152503-9d38-4a8c-b9d2-2a7c6980c2eb",
+    "name": "feedback_form_validData_footwear",
+    "commands": [{
+      "id": "af6afe15-0539-4968-b4ff-af6d3fab1dc2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff3edfc0-4423-4bb8-841d-69216b02c4e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aea7b259-0f1c-484e-9645-bed22a3d24ff",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav__item:nth-child(6) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(6) .main-menu__text", "css:finder"],
+        ["xpath=//li[6]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Footwear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fa7b681-b15f-4304-b7b6-ec054f76a7ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__item:nth-child(6) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(6) .main-menu__text", "css:finder"],
+        ["xpath=//li[6]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Footwear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e778677-fd8d-40d7-8f2b-5981ee1b8d11",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav__link_active > .main-menu__text",
+      "targets": [
+        ["css=.page-nav__link_active > .main-menu__text", "css:finder"],
+        ["xpath=//li[6]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Footwear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3741d7a3-f966-491b-b4bd-f33cfe217626",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__section:nth-child(2) .page-nav__item:nth-child(1) > .page-nav__link",
+      "targets": [
+        ["css=.page-nav__section:nth-child(2) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Running Shoes')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/shoes/mens-athletic-shoes-cleats/running-shoes.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78c6897e-7df9-41c5-8d63-02310801fa31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__list-item:nth-child(2) .product-grid-image",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(2) .product-grid-image", "css:finder"],
+        ["xpath=//img[@alt=\"Reebok Men's Zig Dynamica Running Shoes - White/Pure Grey 2 /Whitewhite/Pure Grey 2 /White\"]", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div[5]/div[3]/div/ul/li[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04c9aaaa-ff51-449c-8eae-cf1ad713cf7f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ca0565d-bf18-4810-8a9a-d02e7a40b470",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cac0c7b-d5f5-4e49-bce3-328b801a9ce2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b21a0d0-bdf9-4cc1-947a-acc8084b5aa3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2190.666748046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "937e92af-5df2-4b07-8a7e-08879e6695be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2338.666748046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e942deae-ea8f-44e0-a11d-eae190e871e7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96f755be-2d46-4fd1-8ff5-8db2a4cbe01f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bv-write-review",
+      "targets": [
+        ["css=.bv-write-review", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//div[@id='BVRRContainer']/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bdb6fb8-448c-4405-9ccf-014410505700",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2511.333251953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71f565ec-91d6-4ff2-9048-d5d378b7ecc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bv-radio-rating-5 > span:nth-child(1)",
+      "targets": [
+        ["css=#bv-radio-rating-5 > span:nth-child(1)", "css:finder"],
+        ["xpath=//span[@id='bv-radio-rating-5']/span", "xpath:idRelative"],
+        ["xpath=//span[5]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ab3d954-d4e1-40f1-a4bf-3d68cf2bd402",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-text-field-title",
+      "targets": [
+        ["id=bv-text-field-title", "id"],
+        ["name=title", "name"],
+        ["css=#bv-text-field-title", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-title']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f9c83db-ffde-4329-8755-68ea4f7b3314",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-text-field-title",
+      "targets": [
+        ["id=bv-text-field-title", "id"],
+        ["name=title", "name"],
+        ["css=#bv-text-field-title", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-title']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Wonderful features!"
+    }, {
+      "id": "92b50c2b-004a-4f01-aac5-bb867685dbde",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb8ee43b-7e96-437a-a719-36aa78b09bee",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "I purchased this 3 months ago, they are still in perfect condition, great for hiking in all weathers and also very durable. I love these shoes!!!"
+    }, {
+      "id": "2df8912a-9ff2-4a1e-8cec-cb3412b55e08",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-radio-isrecommended-true-label",
+      "targets": [
+        ["id=bv-radio-isrecommended-true-label", "id"],
+        ["css=#bv-radio-isrecommended-true-label", "css:finder"],
+        ["xpath=//label[@id='bv-radio-isrecommended-true-label']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[4]/span[3]/span/span/ul/li/label", "xpath:idRelative"],
+        ["xpath=//li/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Yes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc237121-cb07-4b0f-83a0-389f8ded6f07",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-text-field-usernickname",
+      "targets": [
+        ["id=bv-text-field-usernickname", "id"],
+        ["name=usernickname", "name"],
+        ["css=#bv-text-field-usernickname", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-usernickname']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65fcefcf-d941-4090-bdf5-96ef269bb363",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-text-field-usernickname",
+      "targets": [
+        ["id=bv-text-field-usernickname", "id"],
+        ["name=usernickname", "name"],
+        ["css=#bv-text-field-usernickname", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-usernickname']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "man_meet20103004000"
+    }, {
+      "id": "fba8701f-2a4e-429d-8206-0d31912f5726",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-email-field-hostedauthentication_authenticationemail",
+      "targets": [
+        ["id=bv-email-field-hostedauthentication_authenticationemail", "id"],
+        ["name=hostedauthentication_authenticationemail", "name"],
+        ["css=#bv-email-field-hostedauthentication_authenticationemail", "css:finder"],
+        ["xpath=//input[@id='bv-email-field-hostedauthentication_authenticationemail']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[7]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61711857-d3df-46d0-a7e6-694090708dbe",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-email-field-hostedauthentication_authenticationemail",
+      "targets": [
+        ["id=bv-email-field-hostedauthentication_authenticationemail", "id"],
+        ["name=hostedauthentication_authenticationemail", "name"],
+        ["css=#bv-email-field-hostedauthentication_authenticationemail", "css:finder"],
+        ["xpath=//input[@id='bv-email-field-hostedauthentication_authenticationemail']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[7]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": "rajmeet.gill@gmail.com"
+    }, {
+      "id": "1d3fe6a0-90a4-4ebe-bdbe-7adf18c09aac",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1", "id"],
+        ["name=contextdatavalue_WhereDidYouPurchase_1", "name"],
+        ["css=#bv-select-field-contextdatavalue_WhereDidYouPurchase_1", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_WhereDidYouPurchase_1']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[8]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37b81556-20a4-4b1f-b7d9-aa43f19b7a88",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1",
+      "targets": [],
+      "value": "label=Online"
+    }, {
+      "id": "5ea0177b-8874-4cd2-be57-1dd1a177450d",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_StaffIndicator",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_StaffIndicator", "id"],
+        ["name=contextdatavalue_StaffIndicator", "name"],
+        ["css=#bv-select-field-contextdatavalue_StaffIndicator", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_StaffIndicator']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[9]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//fieldset[9]/div[2]/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "539873c9-64d8-4ce5-9073-47f4902156ef",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_StaffIndicator",
+      "targets": [],
+      "value": "label=No"
+    }, {
+      "id": "3cfeec94-be6b-4d49-869f-76291bcb1ec1",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree", "id"],
+        ["name=contextdatavalue_DidYouReceiveThisProductForFree", "name"],
+        ["css=#bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[10]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//fieldset[10]/div[2]/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8868663e-eeed-415a-8141-ef3c98cea866",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree",
+      "targets": [],
+      "value": "label=No"
+    }, {
+      "id": "ce9dc099-7bf7-4e2a-b0b5-10266f3531b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-radio-netpromoterscore-10-label",
+      "targets": [
+        ["id=bv-radio-netpromoterscore-10-label", "id"],
+        ["css=#bv-radio-netpromoterscore-10-label", "css:finder"],
+        ["xpath=//label[@id='bv-radio-netpromoterscore-10-label']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[11]/div[3]/span/span/ul/li[11]/label", "xpath:idRelative"],
+        ["xpath=//li[11]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'10')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd6df244-7164-44f8-b676-8adff71504e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-checkbox-reviews-termsAndConditions",
+      "targets": [
+        ["id=bv-checkbox-reviews-termsAndConditions", "id"],
+        ["name=agreements_reviews_termsAndConditions", "name"],
+        ["css=#bv-checkbox-reviews-termsAndConditions", "css:finder"],
+        ["xpath=//input[@id='bv-checkbox-reviews-termsAndConditions']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div[2]/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f750b6d1-9069-441c-ac36-c1d6d0cd9963",
+      "comment": "",
+      "command": "click",
+      "target": "name=bv-submit-button",
+      "targets": [
+        ["name=bv-submit-button", "name"],
+        ["css=.bv-form-actions-submit", "css:finder"],
+        ["xpath=//button[@name='bv-submit-button']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "246ffff2-1522-4232-a8bc-e46a9366943c",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-text-field-usernickname",
+      "targets": [
+        ["id=bv-text-field-usernickname", "id"],
+        ["name=usernickname", "name"],
+        ["css=#bv-text-field-usernickname", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-usernickname']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333184486-c196']/div/div/fieldset[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "behrouz1"
+    }, {
+      "id": "f54c3629-489f-4973-8065-67c191e9a509",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=bv-mbox-label-text",
+      "targets": [
+        ["id=bv-mbox-label-text", "id"],
+        ["css=#bv-mbox-label-text", "css:finder"],
+        ["xpath=//span[@id='bv-mbox-label-text']", "xpath:attributes"],
+        ["xpath=//div[@id='bv-mbox-lightbox-list']/div[2]/div/div[2]/div/hgroup/span[2]", "xpath:idRelative"],
+        ["xpath=//hgroup/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Your review was submitted!')]", "xpath:innerText"]
+      ],
+      "value": "Your review was submitted!"
+    }]
+  }, {
+    "id": "4d34d89f-4a08-4f42-ac77-2556d7aaf8a5",
+    "name": "storeChoosing_invalidData_Harare",
+    "commands": [{
+      "id": "a8aad285-3930-4963-915d-aed09a913941",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3287e35-f59b-4ddf-9549-fd37713cd8a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dad9e72d-64d0-4880-a531-6c6abba51ae4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-pickup-store__link-container",
+      "targets": [
+        ["css=.header-pickup-store__link-container", "css:finder"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f60551e-47ca-45de-a655-652a39539847",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-pickup-store__link-container",
+      "targets": [
+        ["css=.header-pickup-store__link-container", "css:finder"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "255eff06-82ef-4470-a2f8-4325ae50ad03",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-pickup-store__link-container",
+      "targets": [
+        ["css=.header-pickup-store__link-container", "css:finder"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "528d3753-d8be-4afd-9067-0e41df405c33",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "563ad8e1-60fb-4baf-8c42-8c478f853d73",
+      "comment": "",
+      "command": "type",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Harare"
+    }, {
+      "id": "8fdd6131-03ea-4fd5-a92c-eef9a9706300",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c20daf0b-fe8b-4df1-bab8-6e19a418a45e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb243d8-7b00-429d-878c-33b2ccdccf67",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e699dac-504f-46b1-bb90-020dcf01459b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pickup-modal-choose__summary-content",
+      "targets": [
+        ["css=.pickup-modal-choose__summary-content", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "0 RESULTS FOR PICKUP LOCATIONS NEAR HARARE WITHIN 40 KM"
+    }]
+  }, {
+    "id": "e29ca909-a36d-442b-b82d-b60dbed87a8f",
+    "name": "storeChoosing_validData_CalgaryAB",
+    "commands": [{
+      "id": "d45015da-108f-40a6-bbbd-71355b6bd5d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bff9b754-dddb-47f3-af00-4483550adfa2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eb609f1-8788-4959-bfe9-6492a4e722fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=headerPickupStoreName",
+      "targets": [
+        ["id=headerPickupStoreName", "id"],
+        ["css=#headerPickupStoreName", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreName']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[3]", "xpath:idRelative"],
+        ["xpath=//a/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Choose now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b31f014-ce31-4dce-8920-4d202673164b",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPickupStoreName",
+      "targets": [
+        ["id=headerPickupStoreName", "id"],
+        ["css=#headerPickupStoreName", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreName']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[3]", "xpath:idRelative"],
+        ["xpath=//a/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Choose now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdda9eab-3bb2-4c20-ae1d-37b1a9d51d6b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=headerPickupStoreName",
+      "targets": [
+        ["id=headerPickupStoreName", "id"],
+        ["css=#headerPickupStoreName", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreName']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[3]", "xpath:idRelative"],
+        ["xpath=//a/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Choose now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2503a922-041e-48e8-9e92-442244f18a58",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ccbf19c-2cd9-410f-8192-12a83dc2ff05",
+      "comment": "",
+      "command": "type",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "CALGARY, AB"
+    }, {
+      "id": "68eba4d3-8e3f-4e0a-9e53-618fe31e7289",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f30aba38-e94f-41d2-ae0c-4537575f3075",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c1e59e-987e-4108-a062-23a8d817c4a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c08e0e93-5ee5-45f2-b5c0-4262fdec9593",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "266d2c2e-753f-4a57-856b-5f7dedf82427",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "289a1294-b2f2-4d96-9b8f-f97601043f62",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pickup-modal-choose__summary-content",
+      "targets": [
+        ["css=.pickup-modal-choose__summary-content", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "15 RESULTS FOR PICKUP LOCATIONS NEAR CALGARY, AB WITHIN 40 KM"
+    }]
+  }, {
+    "id": "2ae84ade-76c3-46df-bb2d-107479e680fd",
+    "name": "storeChoosing_validData_TorontoON",
+    "commands": [{
+      "id": "76fb5b60-5c07-4abb-848d-741bb012dfa0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3083e51f-da84-4cef-9422-e64964228a28",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd4b8ce1-ac8d-4417-84bb-50a05221c4db",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=headerPickupStoreTitle",
+      "targets": [
+        ["id=headerPickupStoreTitle", "id"],
+        ["css=#headerPickupStoreTitle", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Your Store:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14184e00-843b-4225-a662-3076c80d0729",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=headerPickupStoreTitle",
+      "targets": [
+        ["id=headerPickupStoreTitle", "id"],
+        ["css=#headerPickupStoreTitle", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Your Store:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "095347af-7ea9-4a0d-807d-bc5392537abc",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPickupStoreName",
+      "targets": [
+        ["id=headerPickupStoreName", "id"],
+        ["css=#headerPickupStoreName", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreName']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[3]", "xpath:idRelative"],
+        ["xpath=//a/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Choose now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "375186ab-b5c3-4108-a319-c9e8c18ea816",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65872cd4-cbc2-439f-8ecf-6d8f54814e6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Toronto"
+    }, {
+      "id": "312abbea-7002-4ce1-a74b-976940e9b9f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d879e4-ddba-4247-a79c-cd7c0ca3de0a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46ee80d2-b34f-49e4-abca-f485ebe3cb43",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74723236-49fb-41d3-a35c-fe101c338efc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.pickup-modal-choose__summary-content",
+      "targets": [
+        ["css=.pickup-modal-choose__summary-content", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "25 RESULTS FOR PICKUP LOCATIONS NEAR TORONTO, ON WITHIN 40 KM"
+    }]
+  }, {
+    "id": "e88f64e1-d618-4fac-a042-504ca69c1adf",
+    "name": "feedback_form_invalidData_shortFeedbackResponse",
+    "commands": [{
+      "id": "dceb4c30-f065-412d-bc59-8fc1b30f804c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cc03040-e8f8-4074-9e12-85f73a0e51fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5502495-b2d7-4824-8db3-e463ce7890b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__item:nth-child(7) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(7) .main-menu__text", "css:finder"],
+        ["xpath=//li[7]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Gear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34863f14-29ec-42a0-a3ef-75771ea421d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Snowboards",
+      "targets": [
+        ["linkText=Snowboards", "linkText"],
+        ["css=.page-nav__section:nth-child(3) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Snowboards')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/shop-by-sport/snowboarding/snowboards.html')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Snowboards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a977288f-8444-49de-8e28-6f82d12ee330",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Snowboards",
+      "targets": [
+        ["linkText=Snowboards", "linkText"],
+        ["css=.page-nav__section:nth-child(3) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Snowboards')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/shop-by-sport/snowboarding/snowboards.html')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Snowboards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2092c4a-98d7-46f5-8e1e-9873ded49999",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,216.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a38c7d65-71b9-4fe9-a9fd-ad6b2e6c603d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,441.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b264ab79-6588-44e0-877e-8a14182d0092",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__list-item:nth-child(2) .product-grid-image",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(2) .product-grid-image", "css:finder"],
+        ["xpath=//img[@alt=\"Burton Talent Scout Women's Snowboard 2021/22 - White Patn\"]", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div[4]/div[3]/div/ul/li[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a436cc9-a150-4bd4-86ab-0b19874c69af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1376)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "978b087c-f2c7-45cb-af83-daaeae5e9d9b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1650.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3733be4a-20b2-4661-b3c8-102499939739",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1825.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9302f92-c95e-435a-9cd2-544224c1ae1f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2822.666748046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bac7bea1-353b-4c0e-9b3d-2d7b218ba87c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3068.666748046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "767ddff1-226f-489e-a801-fbf7f8f6512d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3326)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96bfd866-3de8-481f-955c-3234ed28e42f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3366)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3c975aa-b9b7-443b-b6c2-7f622675dccd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bv-write-review-label",
+      "targets": [
+        ["css=.bv-write-review-label", "css:finder"],
+        ["xpath=//div[@id='BVRRContainer']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Be the first to review this product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83651e39-484f-453a-9b4d-07d9e6bba6f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bv-write-review-label",
+      "targets": [
+        ["css=.bv-write-review-label", "css:finder"],
+        ["xpath=//div[@id='BVRRContainer']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Be the first to review this product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9b447f5-dd39-4c4b-94ad-ff7f6e448937",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.bv-write-review-label",
+      "targets": [
+        ["css=.bv-write-review-label", "css:finder"],
+        ["xpath=//div[@id='BVRRContainer']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Be the first to review this product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db2fa054-e1be-43e5-868d-21ed1eaf86ef",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "973ec01e-c273-4e12-bc59-e55fb18735bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bv-radio-rating-5 > span:nth-child(1)",
+      "targets": [
+        ["css=#bv-radio-rating-5 > span:nth-child(1)", "css:finder"],
+        ["xpath=//span[@id='bv-radio-rating-5']/span", "xpath:idRelative"],
+        ["xpath=//span[5]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc68eab0-3dcc-40f1-8243-10f19ad730c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-text-field-title",
+      "targets": [
+        ["id=bv-text-field-title", "id"],
+        ["name=title", "name"],
+        ["css=#bv-text-field-title", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-title']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4c5cab2-a710-43ef-b7bc-6e73848a6f53",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-text-field-title",
+      "targets": [
+        ["id=bv-text-field-title", "id"],
+        ["name=title", "name"],
+        ["css=#bv-text-field-title", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-title']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Great features!"
+    }, {
+      "id": "bbb53786-8e6b-48f3-8e66-6c58f24bc902",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e2253e3-eeeb-445c-b8c5-8d26670ef199",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9.333333015441895)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2107b2a8-0e18-4fda-b493-26052b9b7aa0",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-textarea-field-reviewtext",
+      "targets": [
+        ["id=bv-textarea-field-reviewtext", "id"],
+        ["name=reviewtext", "name"],
+        ["css=#bv-textarea-field-reviewtext", "css:finder"],
+        ["xpath=//textarea[@id='bv-textarea-field-reviewtext']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[3]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "badass with a hint of saas!"
+    }, {
+      "id": "3cf661ea-22c0-4603-86c2-cd6795cb1b8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-radio-isrecommended-true-label",
+      "targets": [
+        ["id=bv-radio-isrecommended-true-label", "id"],
+        ["css=#bv-radio-isrecommended-true-label", "css:finder"],
+        ["xpath=//label[@id='bv-radio-isrecommended-true-label']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[4]/span[3]/span/span/ul/li/label", "xpath:idRelative"],
+        ["xpath=//li/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Yes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3685142-6428-498a-91cb-70300f5ecfd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-text-field-usernickname",
+      "targets": [
+        ["id=bv-text-field-usernickname", "id"],
+        ["name=usernickname", "name"],
+        ["css=#bv-text-field-usernickname", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-usernickname']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0497b1a6-afb7-409d-822d-b32fe8e9c721",
+      "comment": "",
+      "command": "type",
+      "target": "id=bv-text-field-usernickname",
+      "targets": [
+        ["id=bv-text-field-usernickname", "id"],
+        ["name=usernickname", "name"],
+        ["css=#bv-text-field-usernickname", "css:finder"],
+        ["xpath=//input[@id='bv-text-field-usernickname']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "lovepreet"
+    }, {
+      "id": "4dc2faa0-84aa-40aa-91f4-40956c89eb42",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1", "id"],
+        ["name=contextdatavalue_WhereDidYouPurchase_1", "name"],
+        ["css=#bv-select-field-contextdatavalue_WhereDidYouPurchase_1", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_WhereDidYouPurchase_1']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[8]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b8b971f-511f-4c93-bf48-4bc41493d8da",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_WhereDidYouPurchase_1",
+      "targets": [],
+      "value": "label=Online"
+    }, {
+      "id": "fe5c55f3-956c-4939-95ac-fd9c5fd704a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_StaffIndicator",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_StaffIndicator", "id"],
+        ["name=contextdatavalue_StaffIndicator", "name"],
+        ["css=#bv-select-field-contextdatavalue_StaffIndicator", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_StaffIndicator']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[9]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//fieldset[9]/div[2]/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d86e84b-b243-4e60-bd36-3d373dc05d27",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_StaffIndicator",
+      "targets": [],
+      "value": "label=No"
+    }, {
+      "id": "c6af084f-19fd-4a0f-9c1a-cbd157f603eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree",
+      "targets": [
+        ["id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree", "id"],
+        ["name=contextdatavalue_DidYouReceiveThisProductForFree", "name"],
+        ["css=#bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree", "css:finder"],
+        ["xpath=//select[@id='bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[10]/div[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//fieldset[10]/div[2]/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e844dc32-bb4f-4beb-a4c2-b095687dc1f0",
+      "comment": "",
+      "command": "select",
+      "target": "id=bv-select-field-contextdatavalue_DidYouReceiveThisProductForFree",
+      "targets": [],
+      "value": "label=No"
+    }, {
+      "id": "6d46d1a9-bfd1-4434-bdcd-9ff40df44928",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-radio-netpromoterscore-10-label",
+      "targets": [
+        ["id=bv-radio-netpromoterscore-10-label", "id"],
+        ["css=#bv-radio-netpromoterscore-10-label", "css:finder"],
+        ["xpath=//label[@id='bv-radio-netpromoterscore-10-label']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div/fieldset[11]/div[3]/span/span/ul/li[11]/label", "xpath:idRelative"],
+        ["xpath=//li[11]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'10')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c82128e-02c4-4ea6-872d-66db7acde002",
+      "comment": "",
+      "command": "click",
+      "target": "id=bv-checkbox-reviews-termsAndConditions",
+      "targets": [
+        ["id=bv-checkbox-reviews-termsAndConditions", "id"],
+        ["name=agreements_reviews_termsAndConditions", "name"],
+        ["css=#bv-checkbox-reviews-termsAndConditions", "css:finder"],
+        ["xpath=//input[@id='bv-checkbox-reviews-termsAndConditions']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div[2]/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d90b97a5-85ff-4df7-98b1-b0a9244d348e",
+      "comment": "",
+      "command": "click",
+      "target": "name=bv-submit-button",
+      "targets": [
+        ["name=bv-submit-button", "name"],
+        ["css=.bv-form-actions-submit", "css:finder"],
+        ["xpath=//button[@name='bv-submit-button']", "xpath:attributes"],
+        ["xpath=//form[@id='bv-submitreview-product-333529771-c87']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "104525fa-8927-42cf-aee8-281d5772ba75",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9.333333015441895)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5956b640-caf6-4cdc-9e3b-d27fd40e6bdd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://sportchek.ca/"],
+  "plugins": []
+}
