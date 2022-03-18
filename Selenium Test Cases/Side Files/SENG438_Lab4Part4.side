@@ -1,0 +1,313 @@
+{
+  "id": "ec90d634-6f2f-4977-8d5a-8a5c40630d06",
+  "version": "2.0",
+  "name": "seng438Lab4",
+  "url": "https://www.sportchek.ca/",
+  "tests": [{
+    "id": "53bd3817-3195-4209-9e96-b25b0f352aa1",
+    "name": "selectCategory",
+    "commands": [{
+      "id": "7ffc9afc-9c16-449e-9fa3-6cc776d3e113",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c108787-69d3-4834-99e9-261d2df4e027",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1126x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0a4d34a-7a08-4c85-a114-a39828e39b10",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2664.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5082c806-789b-4c50-8242-5efcc3111eb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-toggle",
+      "targets": [
+        ["css=.menu-toggle", "css:finder"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Shop Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96e9b9c1-085d-47e7-b6a6-d2712295534f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Women",
+      "targets": [
+        ["linkText=Women", "linkText"],
+        ["css=.page-nav__item:nth-child(3) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/women')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "265658fe-16cf-447e-8456-a7dd0f576374",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Running",
+      "targets": [
+        ["linkText=Running", "linkText"],
+        ["css=.page-nav__section:nth-child(1) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Running')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/women/footwear/running-shoes.html')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Running')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36b25593-43ea-4fe9-b113-57570c9e8ce2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9a126681-c420-4fd6-96c0-cabf7035e8bc",
+    "name": "searchBar",
+    "commands": [{
+      "id": "d5127099-d824-42e6-b5c6-f3734eabe673",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cbd855f-28f2-4a7a-b2b1-9797811630ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1124x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e193d28-9dd0-4b6a-8acf-f8b4ec46cfbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e964135-46ad-4191-a6aa-2aeb949963f5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jackets"
+    }, {
+      "id": "9a4d801e-6cd7-47b9-ae5b-a39a37ce3048",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__submit",
+      "targets": [
+        ["css=.header-search__submit", "css:finder"],
+        ["xpath=//input[@value='SEARCH']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "195cdde1-493e-46f2-9e03-c64c97cdb3af",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3b8fefdd-603e-46e0-b182-19415b023397",
+    "name": "selectCategoryData2",
+    "commands": [{
+      "id": "580a102a-21c3-4a38-8afb-728d04f63a26",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "962dfa36-74c7-4daa-9502-965b7f3b327d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1232639-2c02-4092-8de7-a16846fc8628",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__item:nth-child(4) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(4) .main-menu__text", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f880c1e-2866-4ccf-9935-0bf4a9fdd2fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Men",
+      "targets": [
+        ["linkText=Men", "linkText"],
+        ["css=.page-nav__link_active", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/men')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7bc216f-2ad9-4689-917b-cd87c58e1259",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Running",
+      "targets": [
+        ["linkText=Running", "linkText"],
+        ["css=.page-nav__section:nth-child(1) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Running')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/men/footwear/running-shoes.html')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Running')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d79ff790-1fa4-4b88-ab41-8a420489ef43",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "44f1228f-40a8-4f75-a86a-198e5fccd26b",
+    "name": "searchBar2",
+    "commands": [{
+      "id": "6070bb99-699d-4b77-9cbf-cbddf514a406",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3301633-660a-49b7-9b31-a3c0ff2baa33",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bd58237-770c-4b35-aa32-463eb12c2fe6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "931c81b0-cb3b-4c0c-914c-ba2951eec2c6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "shirts"
+    }, {
+      "id": "10d0677f-e1e2-45de-87dc-c84bb9f1d569",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__submit",
+      "targets": [
+        ["css=.header-search__submit", "css:finder"],
+        ["xpath=//input[@value='SEARCH']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "601ba212-79c7-43cb-ad4b-62f69aae145c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-search__submit",
+      "targets": [
+        ["css=.header-search__submit", "css:finder"],
+        ["xpath=//input[@value='SEARCH']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82d568dc-6645-4fe0-985e-a65a50221897",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-pickup-store__link-container",
+      "targets": [
+        ["css=.header-pickup-store__link-container", "css:finder"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Your Store:\nWestbrook Mall Sport Chek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75202b6e-e994-4d9d-b8e0-3248ff079ce3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "629b70af-5c1d-48cb-a232-a4e6b4cb8b4b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["53bd3817-3195-4209-9e96-b25b0f352aa1"]
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}
