@@ -1,0 +1,851 @@
+{
+  "id": "22d45eb1-cbb4-4b63-978d-6bd49cc4ad79",
+  "version": "2.0",
+  "name": "SENG 438 Lab 4",
+  "url": "https://www.sportchek.ca/",
+  "tests": [{
+    "id": "50e7949a-e7dd-45c2-b948-634fd7845a9e",
+    "name": "Add an item to cart",
+    "commands": [{
+      "id": "2c6eeee2-1875-43d8-b1be-3d570904fcca",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d2c0284-47ad-4442-a908-b87c67a8ed23",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28125b32-e81d-4abf-83fa-a44ab331989b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,254)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5cb27be-e207-4daf-9c8d-c62254b0e2b4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,839)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a60da389-0be9-4975-b3fb-42d7fbb6be41",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Adidas Tango Glider Soccer Ball Size 5",
+      "targets": [
+        ["linkText=Adidas Tango Glider Soccer Ball Size 5", "linkText"],
+        ["css=.owl-item:nth-child(2) .product-title-text", "css:finder"],
+        ["xpath=//a[contains(text(),'Adidas Tango Glider Soccer Ball Size 5')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div[2]/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'categories/women/activity/womens-soccer/product/adidas-tango-glider-soccer-ball-size-5-332088214.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Adidas Tango Glider Soccer Ball Size 5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be2dcf0c-72e0-4ed8-8ccd-e33540532c6e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,62)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df1737f0-d40c-4984-a5e0-063dde74e7c0",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.add-cart",
+      "targets": [
+        ["css=.add-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb090d5a-aa1e-4038-818f-230084448a36",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-cart",
+      "targets": [
+        ["css=.add-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3171eaf8-3a3f-447d-a300-5937592e48c1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-cart",
+      "targets": [
+        ["css=.add-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f981994c-652e-43e2-a686-d4c5f4d1aa01",
+    "name": "Youtube Hyperlink",
+    "commands": [{
+      "id": "82099677-6218-4868-8782-eddec662cd86",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d32d848-1267-450f-8db6-31ff6f2bbffd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "766x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53c0a9ea-f3a7-4d6e-abbf-31e3c435ba32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da9c47cf-d92c-4c0d-a2c9-d1f3ba5bb6cc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "416eedcd-a776-4969-a528-812b35d2c39c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,335)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2592cd4c-842c-4ac8-a02e-58b5322b54cc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,711)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd05f430-68b8-4860-be58-c5ad47b07e01",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3964)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6dd785c-7d7b-49c6-abee-e056f6144b29",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4022)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58d53db2-ea74-4581-95dc-9af936c7a25b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=YouTube",
+      "targets": [
+        ["linkText=YouTube", "linkText"],
+        ["css=.youtube", "css:finder"],
+        ["xpath=//a[contains(text(),'YouTube')]", "xpath:link"],
+        ["xpath=//a[@href='http://www.youtube.com/user/SportChekOfficial']", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'YouTube')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9738",
+      "windowTimeout": 2000
+    }, {
+      "id": "b25962b0-bf52-4c6c-885f-d28ad81a560d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9738}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc88a915-c17c-4baa-a73d-d40f718452a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,35)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d534c0d1-4c4f-444d-a0d6-f5189876489c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#meta > #channel-name > #container #text",
+      "targets": [
+        ["css=#meta > #channel-name > #container #text", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='text-container']/yt-formatted-string", "xpath:idRelative"],
+        ["xpath=//ytd-channel-name/div/div/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Sport Chek')]", "xpath:innerText"]
+      ],
+      "value": "Sport Chek"
+    }]
+  }, {
+    "id": "818da91b-89c4-4e22-95c2-4ee4da9067ec",
+    "name": "Add 3 items to cart",
+    "commands": [{
+      "id": "4eb32dba-7581-44e4-8033-2f2a6c10bc0d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43f12abb-2ac6-43b0-9ff5-3d4a4dc1c8c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdbd43fa-f145-4f8e-8ef0-36244ae0bf01",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,148)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4b204b4-d9be-432f-a24c-156cf294ea19",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,504)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d3f8150-6735-45ff-ad68-373b347d20d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1360)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "615d5101-99b3-4da7-aac1-275ce6bf1fcb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1603)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad85ac23-5d01-480a-a658-7fabec5983f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wilson Evolution Basketball Size 6",
+      "targets": [
+        ["linkText=Wilson Evolution Basketball Size 6", "linkText"],
+        ["css=.owl-item:nth-child(1) .product-title-text", "css:finder"],
+        ["xpath=//a[contains(text(),'Wilson Evolution Basketball Size 6')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div[2]/div[4]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'categories/men/activity/mens-basketball/product/wilson-evolution-basketball-size-6-332760724.html')])[2]", "xpath:href"],
+        ["xpath=//div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wilson Evolution Basketball Size 6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb88d15-0386-4fad-be87-bc147a0f4023",
+      "comment": "",
+      "command": "click",
+      "target": "css=.number-spin-btn--up",
+      "targets": [
+        ["css=.number-spin-btn--up", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4fee259-0a6a-415e-a112-5f85c8152f74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.number-spin-btn--up",
+      "targets": [
+        ["css=.number-spin-btn--up", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3fd6ae2-9bff-4437-b93f-efd6b483a992",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-cart",
+      "targets": [
+        ["css=.add-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a22e619-d987-4a04-b5d0-82f1e69b9663",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.add-cart",
+      "targets": [
+        ["css=.add-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "375dd153-c77b-4bb0-b43c-d077b323ed82",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-cart > span",
+      "targets": [
+        ["css=.add-cart > span", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76065481-3baf-4fc7-97f7-715d25909f8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-cart > span",
+      "targets": [
+        ["css=.add-cart > span", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4312f3b6-5a1e-4e09-b36a-c9669deea859",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.add-cart > span",
+      "targets": [
+        ["css=.add-cart > span", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed04ca38-7ebc-4ab1-a3e5-de4036d20f88",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-cart > span",
+      "targets": [
+        ["css=.add-cart > span", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2db1c9c8-7f80-466a-a4c3-04b05308c2e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-cart > span",
+      "targets": [
+        ["css=.add-cart > span", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c379eacc-8c60-4179-8c41-b8a6f2955e87",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.add-cart > span",
+      "targets": [
+        ["css=.add-cart > span", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf7be25a-d9e5-42d6-a733-c94bf99906f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-cart__confirmation-message_text",
+      "targets": [
+        ["css=.header-cart__confirmation-message_text", "css:finder"],
+        ["xpath=//div[6]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "def02ad6-7ede-467d-8113-34158bca1f6d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Deals & Features",
+      "targets": [
+        ["linkText=Deals & Features", "linkText"],
+        ["css=.page-nav__item:nth-child(12) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/deals-and-features')]", "xpath:href"],
+        ["xpath=//li[12]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Deals & Features')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6461235c-0899-485f-8849-e4c97749225c",
+    "name": "Remove an item from cart",
+    "commands": [{
+      "id": "c259136b-f1e0-48ce-a16d-1c8cf5d09f99",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a81fa0cf-fd72-49c4-a1f7-047a2d4d3456",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1690e088-a652-48ac-afcd-bb5fcce16382",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-cart__text",
+      "targets": [
+        ["css=.header-cart__text", "css:finder"],
+        ["xpath=//div[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44710ddb-c268-4f93-965b-9e0b39f94be7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-product:nth-child(3) .sc-remove-item",
+      "targets": [
+        ["css=.sc-product:nth-child(3) .sc-remove-item", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div[2]/div[4]/section/div/div[3]/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adfd7346-8ed7-43fe-bf5e-f89086683926",
+      "comment": "",
+      "command": "click",
+      "target": "css=.signin-form__submit",
+      "targets": [
+        ["css=.signin-form__submit", "css:finder"],
+        ["xpath=//input[@value='Yes, remove item']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bfc0fcd1-0a64-465c-8a34-f8bea05bc4e6",
+    "name": "Facebook Hyperlink",
+    "commands": [{
+      "id": "2eb22663-5ab1-48cb-99ab-d858f19cd0da",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e26abce-4fc3-481a-9cf7-e6d1916226bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51f34b34-a90a-44d6-b5de-7febe786babb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,40)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "053fcc1e-8dd0-41e9-b7d3-2edcd1790f58",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3771)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17448e8a-f258-4f76-82f3-c3605dbb8d9b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.iwbl29-0:nth-child(3) .sc-12zed7i-0",
+      "targets": [
+        ["css=.iwbl29-0:nth-child(3) .sc-12zed7i-0", "css:finder"],
+        ["xpath=//div[@id='crl8-homepage-carousel']/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[3]/div/button/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5de95df2-4f6e-4eaa-bdcc-273adcfdfad4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4629)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "690cf6d8-2e23-4332-a9b1-d81eb6d7c850",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.iwbl29-1:nth-child(2) .sc-12zed7i-0",
+      "targets": [
+        ["css=.iwbl29-1:nth-child(2) .sc-12zed7i-0", "css:finder"],
+        ["xpath=//div[@id='crl8-homepage-carousel']/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[3]/div/button/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//button/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "722dca9a-a581-400f-a2ef-fe6ac9443222",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-section__newsletter-signup > .button",
+      "targets": [
+        ["css=.footer-section__newsletter-signup > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/sign-up.html')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a951b71b-e732-400e-9d62-aeb82f738cc4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer-section__newsletter-signup > .button",
+      "targets": [
+        ["css=.footer-section__newsletter-signup > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/sign-up.html')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6b74b46-d4bc-4f4d-9cc6-d59709b4c818",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Facebook",
+      "targets": [
+        ["linkText=Facebook", "linkText"],
+        ["css=.facebook", "css:finder"],
+        ["xpath=//a[contains(text(),'Facebook')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/SportChekOfficial?v=wall&ref=ts')]", "xpath:href"],
+        ["xpath=//div[3]/div[5]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Facebook')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1288",
+      "windowTimeout": 2000
+    }, {
+      "id": "eeade6a1-cc97-44db-874e-ce69db5a6ee5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1288}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d68c1e93-c982-4777-9d0d-b5988bbfbc94",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,315)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccf6a1c6-0b6c-4623-aa2a-7d97a8a1527f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,172)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6de5c820-a393-4b77-8e26-08abeb8cd1bb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.embtmqzv > .gmql0nx0",
+      "targets": [
+        ["css=.embtmqzv > .gmql0nx0", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_L8']/div/div/div/div[3]/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/span/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Sport Chek')]", "xpath:innerText"]
+      ],
+      "value": "Sport Chek"
+    }]
+  }, {
+    "id": "a0acf78d-cdac-41de-9c52-85c766bc96d6",
+    "name": "Twitter Hyperlink",
+    "commands": [{
+      "id": "541a33f7-5b71-4a26-8f80-a274792b8256",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98fa229e-2db5-4f54-ba88-f1d3fd1c4605",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5215a69f-0f75-49a2-88de-9904ea4a319c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,837)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3c4d934-120e-4ba0-b8d3-eafa7b135aa6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4624)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2466b1ae-361d-4cb2-84a6-5a35515b8a0e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6319)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06232b4d-c206-4ffb-a22d-d967f5733a33",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6271)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8659ce14-fa09-49b1-8585-10bc0f9d9ff5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Online Customer Service",
+      "targets": [
+        ["linkText=Online Customer Service", "linkText"],
+        ["css=.customerServiceLinks .footer-section__menu-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Online Customer Service')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/help-desk/online-store-information/contact-us.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[4]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online Customer Service')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82cea42e-2248-4140-bb29-8d3385b8179f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Online Customer Service",
+      "targets": [
+        ["linkText=Online Customer Service", "linkText"],
+        ["css=.customerServiceLinks .footer-section__menu-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Online Customer Service')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/help-desk/online-store-information/contact-us.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[4]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online Customer Service')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bf7b49c-e2b9-4b11-8376-e85fc8eb8379",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6521)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4041057-1db4-4c6a-a243-d6305efd2521",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Twitter",
+      "targets": [
+        ["linkText=Twitter", "linkText"],
+        ["css=.twitter", "css:finder"],
+        ["xpath=//a[contains(text(),'Twitter')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://twitter.com/SportChek')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Twitter')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7888",
+      "windowTimeout": 2000
+    }, {
+      "id": "1bf76ca7-0cea-41a5-800b-9f2d441d51a4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7888}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd359cb4-be02-4420-b5a6-03fef41b5988",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) > .css-4rbku5 > .css-1dbjc4n",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) > .css-4rbku5 > .css-1dbjc4n", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/div/div[2]/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b0217d-b3f4-4f87-932d-7d76624fbb71",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) > .css-4rbku5 > .css-1dbjc4n",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) > .css-4rbku5 > .css-1dbjc4n", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/div/div[2]/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e11d58e2-2647-4a59-8ab7-a25b2b7af4d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) .css-9pa8cd",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) .css-9pa8cd", "css:finder"],
+        ["xpath=(//img[@alt='Image'])[5]", "xpath:img"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/div/div[2]/div/div[2]/div[2]/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d80db4-cda5-4282-ba83-f298a903f723",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) > .css-4rbku5 .css-9pa8cd",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) > .css-4rbku5 .css-9pa8cd", "css:finder"],
+        ["xpath=(//img[@alt='Image'])[7]", "xpath:img"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/div/div[2]/div/div[2]/div[2]/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd206e67-9226-44fd-95d1-e4181c023be4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-901oao > .css-901oao > .css-901oao",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-901oao > .css-901oao > .css-901oao", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": "Sport Chek"
+    }]
+  }, {
+    "id": "aa58c09c-3a89-4a01-bff8-10f45badfb24",
+    "name": "Instagram Hyperlink",
+    "commands": [{
+      "id": "63ccf43b-ef69-4777-8542-b75c811646aa",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ece8c101-2822-4cd1-8da4-3a0af54bb9e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db5a6757-acd5-4c46-be16-fcc2a054fb75",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,29)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5a37b12-4ba0-4fcb-8ecd-8c4a55ca2552",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,461)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e28f6b1-3aa5-4075-a3db-f7cd3be18fa3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1622.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae111457-e685-4180-bd78-6bea700581e4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2394.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dafd21f1-80cf-4730-8e0d-4cd60e1bb998",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3617.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddb94a7f-e944-4e61-87ff-1e9310e5773a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4853.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c869e7a-f508-466e-bbbb-e2a14a50ce58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Instagram",
+      "targets": [
+        ["linkText=Instagram", "linkText"],
+        ["css=.instagram", "css:finder"],
+        ["xpath=//a[contains(text(),'Instagram')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://instagram.com/sportchek/')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Instagram')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4191",
+      "windowTimeout": 2000
+    }, {
+      "id": "8af5d45f-03eb-4d2b-af0b-98645239594c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4191}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ab01fd2-2a15-4dde-83ed-e5370132ff6d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.NXVPg",
+      "targets": [
+        ["css=.NXVPg", "css:finder"],
+        ["xpath=//div[@id='react-root']/section/main/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Instagram')]", "xpath:innerText"]
+      ],
+      "value": "Instagram"
+    }]
+  }],
+  "suites": [{
+    "id": "49949238-6cce-4ff7-a5e8-381c3940c42c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}
